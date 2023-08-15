@@ -1,3 +1,5 @@
 # exclude terraform files
 terraform/*/terraform.tfstate*
 terraform/*/.terraform*
+
+terraform/.DS_Store
