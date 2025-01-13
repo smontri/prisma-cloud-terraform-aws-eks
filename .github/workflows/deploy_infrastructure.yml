@@ -58,7 +58,7 @@ jobs:
           framework: terraform
           output_format: cli
           directory: .
-          download_external_modules: false
+          download_external_modules: true
 
       - name: Setup tool - install Terraform
         uses: hashicorp/setup-terraform@v2
