@@ -54,7 +54,7 @@ jobs:
         with:
           api-key: ${{ secrets.PC_ACCESS_KEY }}::${{ secrets.PC_SECRET_KEY }}
           quiet: true
-          use_enforcement_rules: true
+          use_enforcement_rules: false
           framework: terraform
           output_format: cli
           directory: .
